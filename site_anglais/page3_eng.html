@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OUR MARRIAGE</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylei3_eng.css">
+</head>
+
+<body>
+  <nav class="navigation">
+    <!--Début de la barre de navigation verticale-->
+        <div class="ensemble">  
+            <div class="trois-points">   <!--Cette partie represente les trois points qui font réference à un menu-->
+                <div class="point p1"></div>
+                <div class="point p2"></div>
+                <div class="point p3"></div>
+            </div>  
+
+            <!--Début des icones permettant de naviguer dans les pages-->
+            <div class="home">
+                <a href="index_eng.html">&#127968;</a>    <!--Lien vers la page d'accueuil-->
+                <div class="sub-nav">
+                    <h2>HOME</h2>
+                    <ul>
+                      <li>
+                        <a href="index_eng.html #bienvenue">welcome</a>
+                      </li>
+                      <li>
+                        <a href="index_eng.html #nous">We</a>
+                      </li>
+                      <li>
+                        <a >Presentations</a>
+                      </li>
+                      <li>
+                        <a href="index_eng.html #kara">Karaoke Sequence</a>
+                      </li>
+                      <li>
+                        <a >Link</a>
+                      </li>
+                      <li>
+                        <a href="index_eng.html #mentions">Mentions</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+            
+
+            <div class="home">
+                <a href="page1_eng.html">&#128212;</a>   <!--Lien vers la page avec le menu-->
+                <div class="sub-nav">
+                    <h2>MENU</h2>
+                    <ul>
+                      <li>
+                        <a href="page1_eng.html #entree">Entrance</a>
+                      </li>
+                      <li>
+                        <a href="page1_eng.html #soupe">Soupe</a>
+                      </li>
+                      <li>
+                        <a href="page1_eng.html #plat">Plat</a>
+                      </li>
+                      <li>
+                        <a href="page1_eng.html #dessert">Dessert</a>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+
+            <div class="home200">
+                <a href="page3_eng.html">&#128196;</a> 
+                <div class="sub-nav-spec">
+                    <h2>FORM</h2>       <!--Lien vers le formulaire-->
+                    <ul>
+                      <li>
+                        <a href="page3_eng.html">Form</a>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+
+            <div class="home">
+                <a href="page2_eng.html">&#128248;</a>     <!--Lien vers la page avec les photos et les videos-->
+                <div class="sub-nav">
+                    <h2>PHOTO</h2>
+                    <ul>
+                        <li>
+                          <a href="page2_eng.html #photos">Pictures</a>
+                        </li>
+                        <li>
+                          <a href="page2_eng.html #videos">Videos</a>
+                        </li>
+                      </ul>
+                  </div>
+            </div>
+
+            <div class="home">
+              <a href="../site_francais/page3.html">&#127467;&#127479;</a>
+            </div>
+    </nav>   
+        
+        
+        <div class="formulaire">
+            <h1>FORM TO FILL OUT</h1>
+            <p>Thank you for filling out this form in order to better know your preferences, <br> and to be able to better meet your needs at the time of the wedding day</p>
+            <br>
+            <p>We will email you an invitation to the wedding.</p>
+            <br>
+            <label>Last name : <input name="nom" type="text"/></label>
+            
+            <label>First name : <input name="prenom" type="text"/></label>
+            <br>
+            <datalist id="liens">
+                <option value="Parent coté la mariée" />
+                <option value="Parent coté le marié" />
+                <option value="Ami proche" />
+                <option value="Colegues" />
+                <option value="Autre" />
+            </datalist>          
+
+            <datalist id="allergies">
+                <option value="Non">
+            </datalist>
+            <br>
+            <label>Email : <input name="mail" type="text"/></label><br>
+            <br>
+            <label>Phone : <input name="tel" type="number" /></label>
+            <br>
+            <div class="result">
+                <br>
+                <label>Choose the link : <input type="text" list="liens" /></label>
+            </div>
+
+            <div class="allergies">
+                <br>
+                <label>Do you have allergies ? If so why ? <input type="text" list="allergies" /></label>
+            </div>
+
+            <br>
+
+            <p>For a question of image rights, please tell us if you are in favor or against posting photos and videos on our site:</p>
+            <p id="phm">**If your opinion is unfavorable, we will do everything we can to respect your decision and we will blur your face in the photos and over the entire duration of the videos.</p>
+            <div>
+              <span><p id="avis">Your opinion : </p></span>
+              <span style="width: 50%;text-align:center"><label for="accord">Favorable</label></span>
+              <span style="width: 50%;text-align:center"><input type="radio" name="accord" value="x"/></span>
+              <span style="width: 50%;text-align:center"><label for="accord">Unfavorable</label></span>
+              <span style="width: 50%;text-align:center"><input type="radio" name="accord" value="y"/></span>
+            </div>
+            <br>
+
+
+        </div>
+
+</body>
+</html>

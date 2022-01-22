@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+body, html, header, h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+header, body, html{
+
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    outline: none;
+    text-decoration: none;    
+}
+
+a:link{
+    color:white
+}
+
+a:visited{
+    color: darkcyan;
+}
+
+a:active{
+    color: darkcyan;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+main{
+    text-align: center;
+}
+
+.wrapper{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.map{
+    font-family: 'Luxurious Roman', cursive;
+    text-decoration: none;
+}
+
+.content{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+header{
+    background: url(https://www.wallpapertip.com/wmimgs/27-271426_cute-wedding-backgrounds-wallpapers-wedding-flowers-backgrounds-hd.jpg) no-repeat center center;
+    background-size:cover ;
+}
+
+.grandtxt{
+    font-family: 'Luxurious Roman', cursive;
+    text-decoration: none;
+}
+
+.navigation{
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0; 
+}
+.ensemble {
+    background: #333;
+    height: 100vh;
+    width: 75px;
+    align-items: center;
+}
+
+.sub-nav {
+    padding: 0px;
+    width: 200px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #333;
+    z-index: -1;
+    color: white;
+    /* Hidden at the left side */
+    transform: translateX(-100%);
+    transition: transform 0.2s ease-in-out;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+}
+
+.sub-nav-spec {
+    padding: 0px;
+    width: 250px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #333;
+    z-index: -1;
+    color: white;
+    /* Hidden at the left side */
+    transform: translateX(-100%);
+    transition: transform 0.2s ease-in-out;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+    font-size: 24px;
+}
+
+.sub-nav-spec h2{
+    text-align: center;
+}
+
+.sub-nav h2{
+    text-align: center;
+}
+
+.home{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 200%;
+   text-decoration: none;
+   padding: 20px 0;
+    display: flex;
+    cursor: pointer;
+}
+.home200{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    text-decoration: none;
+    padding: 20px 0;
+     display: flex;
+     cursor: pointer;
+}
+.home:hover {
+    background: rgb(24, 24, 24);
+  }
+
+.home:hover .sub-nav {
+    transform: translateX(75px);
+  }
+
+  .home200:hover {
+    background: rgb(24, 24, 24);
+  }
+
+.home200:hover .sub-nav-spec {
+    transform: translateX(75px);
+  }
+
+.trois-points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+  }
+
+.point {
+    flex-shrink: 0;
+    margin: 10px 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+  }
+.p1 {background: crimson;}
+.p2 {background: yellow;}
+.p3 {background: lightgreen;}
+
+#bienvenue{
+    text-align: center;
+    font-size: 65px;
+    background: -webkit-linear-gradient(rgb(255, 0, 170), rgb(255, 0, 64));
+    -webkit-background-clip: text;    /*ne pas prendre en compte cette erreur, cette erreur n'est pas visible sur le site*/
+    -webkit-text-fill-color: transparent;
+    font-family: 'Luxurious Roman', cursive;
+    text-decoration: none;
+    
+}
+
+li{
+    text-decoration: none;
+}
+
+.hose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    text-decoration: none;
+    padding: 20px 0;
+    display: flex;
+    cursor: pointer;
+}
+
+.picture{
+    width: 222px;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.karaoke{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(64,121,225,1) 33%, rgba(67,187,162,1) 75%, rgba(70,252,100,1) 100%);
+    border: solid 2px greenyellow;
+    width: 80%;
+}
+
+.bas_de_page{
+    text-align: center;
+    font-family: 'Luxurious Roman', cursive;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    background: rgb(131,58,180);
+    background: linear-gradient(137deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+
+
